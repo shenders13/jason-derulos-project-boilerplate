@@ -1,0 +1,218 @@
+.work-history-section {
+  width: 100%;
+}
+
+.work-history-title {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #D8D8D8;
+  font-size: 20px;
+  color: #4A4A4A;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.post-image-container {
+  width: 100%;
+  max-height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tag {
+   position: absolute;
+   right: 10px;
+   top: 20px;
+   z-index: 0;
+   text-align: center;
+   color: #FFFFFF;
+   font-weight: bold;
+   padding-top: 3px;
+   width: 30px;
+   height: 30px;
+   border-radius: 15px;
+   background: #00ABA9;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20), 0px 1px 5px 0px rgba(0,0,0,0.13);
+   font-size: 18px;
+}
+
+.post-image-container:hover 
+{
+  cursor: pointer;
+}
+
+.project-container {
+  padding-bottom: 30px;
+  border-bottom: solid 1px #D8D8D8;
+  margin-bottom: 50px;
+  max-width: 800px;
+  position:relative;
+}
+
+.top-project-row {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.project-date {
+  color: #4A4A4A;
+}
+
+.project-location {
+  margin-left: 30px;
+  color: #4A4A4A;
+}
+
+.project-price-range {
+  position: absolute;
+  right: 20px;
+}
+
+.project-type {
+  right: 180px;
+  position: absolute;
+}
+
+.caption___3vDh_ {
+  text-align: center !important;
+  height: 10vh !important;
+  font-size: 24px;
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.ril-caption-content.captionContent___30kw2 {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.image___2FLq2 {
+  max-height: 80vh !important;
+}
+
+
+
+.toolbar-left {
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  position: fixed !important;
+}
+
+.toolbar-right {
+  position: fixed !important;
+  right: 0%;
+}
+
+.toolbarLeftSide___8beAg {
+  padding-left: 0 !important;
+}
+
+@media (min-width: 1400px) {
+  .navButtons___3kNVF {
+      width: 100px !important;
+      padding: 20px 10px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+  }
+  .navButtonNext___30R2i {
+    width: 400px !important;
+    height: 400px !important;
+    background: rgba(0,0,0,0) url('../../assets/images/icons/right-chevron.png') no-repeat 50% !important;
+  }
+
+  .navButtonPrev___2vBS8 {
+    width: 400px !important;
+    height: 400px !important;
+    background: rgba(0,0,0,0) url('../../assets/images/icons/left-chevron.png') no-repeat 50% !important;
+  }
+
+  .toolbarItemChild___2U_MP {
+    font-size:20px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .toolbarItemChild___2U_MP {
+    font-size:15px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .job-description {
+    max-width: 65%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px){
+  .job-description {
+    max-width: 55%;
+  }
+}
+
+.scroll-image {
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.05);
+  border-radius: 50%;
+}
+
+.job-description {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.description-and-reference-section {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.project-reference-button {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+}
+
+.no-project-reference-button {
+  display: flex;
+  position: absolute;
+  right: 5px;
+  font-size: 18px;
+}
+
+.project-reference-button:hover {
+  cursor: pointer;
+}
+
+.project-reference-text {
+  padding-top: 22px;
+  display: flex;
+  color: #4A4A4A !important;
+
+}
+
+.right-chevron-project-reference {
+  width: 20px;
+  height: 50px;
+}
+
+.reference-chevron {
+  width: 50px !important;
+  height: 70px !important;
+  color: #BDBDBD !important;
+}
+
+.tick {
+  height: 20px !important;
+  width: 20px !important;
+  margin-right: 15px;
+}
+
+
+
